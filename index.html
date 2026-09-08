@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Cyberpunk</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="particles-js"></div>
+
+    <div class="card-formulario">
+        <h2>Cadastro de Usuário</h2>
+        
+        <form action="cadastro.php" method="POST">
+            <div class="formulario-box">
+                <label for="txtNome">Nome Completo</label>
+                <input type="text" id="txtNome" name="Nome" placeholder="Digite seu nome" required>
+            </div>
+
+            <div class="formulario-box">
+                <label for="txtIdade">Idade</label>
+                <input type="number" id="txtIdade" name="Idade" placeholder="Digite sua idade" required min="1">
+            </div>
+
+            <button type="submit" name="botaoCadastrar" class="botao-enviar">Cadastrar</button>
+        </form>
+
+    </div>
+
+    <!-- Scripts de Partículas -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>
