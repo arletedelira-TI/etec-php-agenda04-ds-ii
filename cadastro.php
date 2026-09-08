@@ -65,7 +65,7 @@
         <?php endif; ?>
 
         <br>
-        <a href="index.html" style="text-decoration: none;">
+        <a href="cadastro.html" style="text-decoration: none;">
             <button class="botao-enviar">[ VOLTAR AO TERMINAL ]</button>
         </a>
     </div>
